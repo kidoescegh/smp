@@ -1,6 +1,16 @@
 {
-  "name": "Solana Meme",
-  "symbol": "SOLAME",
-  "description": "This is a token program on the Solana blockchain, defining a common implementation for fungible tokens",
-  "image": "https://lens.google.com/uploadbyurl?url=https%3A%2F%2Ftpi.tradewithphoton.com%2Fuploads%2Fsol%2Ftoken%2Fimg_src%2FXduuYwkhrqb4YuTU6cg8kaB6a413RRMWtka5RS5NhJq%2F1.webp"
+  "name": "graham potter faceswap",
+  "symbol": "FACESWAP",
+  "description": "Graham Potter face Funny, angry, curious and lough",
+  "image": "https://github.com/kidoescegh/filee/raw/main/jsonmmoa.png",
+  "external_url": "https://www.whufc.com",
+  "attributes": [
+    { "trait_type": "Meme", "value": "Utility" }
+  ],
+  "properties": {
+    "files": [
+      { "uri": "https://github.com/kidoescegh/filee/raw/main/jsonmmoa.png", "type": "image/png" }
+    ],
+    "category": "token"
+  }
 }
